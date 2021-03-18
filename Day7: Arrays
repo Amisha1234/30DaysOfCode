@@ -14,7 +14,7 @@ import sys
 n = int(input())
 arr = list(map(int, input().rstrip().split()))
 for i in range(len(arr)-1, -1, -1):                 #starting loop with last index of an array and decresing it by 1 till it reaches 0.
-    print(arr[i], end=" ")
+    print(arr[i], end=" ")                          #end=" " is used to print single spaced numbers in a single line
     
     
 INPUT:
