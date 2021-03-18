@@ -1,0 +1,25 @@
+Given an array,A, of N integers, print A's elements in reverse order as a single line of space-separated numbers.
+
+CODE:
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+n = int(input())
+arr = list(map(int, input().rstrip().split()))
+for i in range(len(arr)-1, -1, -1):                 #starting loop with last index of an array and decresing it by 1 till it reaches 0.
+    print(arr[i], end=" ")
+    
+    
+INPUT:
+4
+1 4 3 2
+
+OUTPUT:
+2 3 4 1
