@@ -8,3 +8,10 @@ def factorial(num):
         return(num*factorial(num-1))
 n=int(input())
 print(factorial(n))
+
+
+INPUT:
+3
+
+OUTPUT:
+6
