@@ -1,0 +1,10 @@
+Find factorial of a number using recursion function.
+
+CODE:
+def factorial(num):
+    if (num==1):
+       return(num)
+    else: 
+        return(num*factorial(num-1))
+n=int(input())
+print(factorial(n))
